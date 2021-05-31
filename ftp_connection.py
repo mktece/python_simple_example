@@ -9,13 +9,19 @@ ftp.retrlines('LIST')     # list directory contents
 
 import ftplib
 
-ftp = ftplib.FTP('ftp.sunet.se', 'anonymous', 'anonymous@sunet.se')
+# list directory contents 
+host=""
+username =''
+pass = ''
 
-print "File List: "
+ftp = ftplib.FTP(host, username, pass)
+
+print ("File List: ")
 
 files = ftp.dir()
 
-print files
+# print files
+print (files)
 
 ftp.cwd("/pub/unix") #changing to /pub/unix
 
