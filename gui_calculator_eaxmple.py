@@ -69,7 +69,7 @@ def add():
     txt1.delete(0, END)
     x = x + 1
 
-
+# Function to subtact
 def subtract():
     global x
     subtract.b = (eval(txt1.get()))
