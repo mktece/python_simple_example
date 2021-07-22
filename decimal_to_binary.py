@@ -5,7 +5,7 @@ def decimalToBinary(num):
     print(num % 2, end='')
 
 
-# decimal number
+# decimal number input
 number = int(input("Enter any decimal number: "))
 
 decimalToBinary(number)
