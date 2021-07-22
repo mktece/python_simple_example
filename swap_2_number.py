@@ -1,4 +1,4 @@
-# Python program to swap two variables
+# Python program to swap two variables via input
 
 x = 5
 y = 10
