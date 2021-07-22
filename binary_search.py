@@ -1,7 +1,7 @@
 
 # Author : Mayank Tiwari (mktece)
 # It returns location of x in given array arr  
-# if present, else returns -1 
+# if present, else returns -1  
 
 def binarySearch(arr, l, r, x):
     while l <= r:
